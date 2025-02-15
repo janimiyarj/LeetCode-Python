@@ -32,14 +32,17 @@ Only one valid answer exists.
 
 Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        seen = {}
-        for i, value in enumerate(nums): #1
-            remaining = target - nums[i] #2
-           
-            if remaining in seen: #3
-                return [i, seen[remaining]]  #4
-            else:
-                seen[value] = i  #5
-        
+Python Code:
+Here is the Python Code:
+
+         class Solution:
+             def twoSum(self, nums: List[int], target: int) -> List[int]:
+                 seen = {}
+                 for i, value in enumerate(nums): #1
+                     remaining = target - nums[i] #2
+                    
+                     if remaining in seen: #3
+                         return [i, seen[remaining]]  #4
+                     else:
+                         seen[value] = i  #5
+                 
