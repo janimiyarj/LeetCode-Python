@@ -8,18 +8,18 @@ This repository contains my Python solutions for various LeetCode problems. The 
 
 The repository is organized into directories based on problem categories and difficulty levels:
 
-.
-├── Arrays
-├── Strings
-├── LinkedLists
-├── Trees
-├── Graphs
-├── DynamicProgramming
-├── Backtracking
-├── SortingAndSearching
-├── BitManipulation
-├── Math
-└── README.md
+    .
+    ├── Arrays
+    ├── Strings
+    ├── LinkedLists
+    ├── Trees
+    ├── Graphs
+    ├── DynamicProgramming
+    ├── Backtracking
+    ├── SortingAndSearching
+    ├── BitManipulation
+    ├── Math
+    └── README.md
 
 Each problem file follows a consistent naming convention:
 
